@@ -18,7 +18,7 @@ public class Main {
 
         // Health endpoint
         server.createContext("/health", exchange -> {
-            sendResponse(exchange, 200, "OK");
+            sendResponse(exchange, 200, "OK - working");
         });
 
         // Items endpoint
